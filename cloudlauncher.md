@@ -37,7 +37,8 @@ After succesful log on you will be prompted with your "Snapt UI" login page.
 
 Great! You have 1 Aria node running on GCP.
 
-<a name="new"></a>## Creating a trial account 
+<a name="new"></a>
+## Creating a trial account 
 If you do not have a license, you may register a new account by clicking "Create an account". You will be prompted for you email address and will need to check your inbox for further instructions.
 ![](./img/trial.png)
 
