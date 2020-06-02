@@ -10,11 +10,10 @@ Click "Launch on Compute Engine"
 ![](./img/deploy.png)
 
 You can accept the default settings or customize them.  When complete click "Deploy"
-That's it!  Your cluster is now deploying.
+That's it!  Your cluster is now deploying...
 ![](./img/deploying.png)
 
 When complete you should see:
-
 ![](./img/deployed.png)
 
 To launch Snapt Aria User interface click on the site address: 
@@ -25,22 +24,20 @@ If you receive a redirect prompt, follow direct link.
 
 You should now receive a Snapt shop login page.
 ![](./img/browse.png)
-(Please note it may take a while for interface to initialize. If you receive a page not found, please wait a few minutes before trying again.)
+*(Please note it may take a while for interface to initialize. If you receive a page not found, please wait a few minutes before trying again.)*
 
 ## Snapt Web Interface
 If this is your first time deploying Aria, you will need to log onto shop and serialize your license. 
 Log in with your shop username and password.
-If you do not have a username and password, follow the link https://shop.snap.net and create one.
 ![](./img/shop.png)
-
+*If you do not have a username and password, follow the link https://shop.snap.net and create one. Instructions [below](#new)*
 
 After succesful log on you will be prompted with your "Snapt UI" login page.
 ![](./img/login.png)
 
-
 Great! You have 1 Aria node running on GCP.
 
-## Creating a trial account 
+<a name="new"></a>## Creating a trial account 
 If you do not have a license, you may register a new account by clicking "Create an account". You will be prompted for you email address and will need to check your inbox for further instructions.
 ![](./img/trial.png)
 
