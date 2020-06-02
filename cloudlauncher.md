@@ -35,7 +35,7 @@ If you do not have a username and password, follow the link https://shop.snap.ne
 
 
 After succesful log on you will be prompted with your "Snapt UI" login page.
-![](./img/login.pnp)
+![](./img/login.png)
 
 
 Great! You have 1 Aria node running on GCP.
