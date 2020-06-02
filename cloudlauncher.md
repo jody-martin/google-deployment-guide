@@ -31,7 +31,7 @@ You should now receive a Snapt shop login page.
 If this is your first time deploying Aria, you will need to log onto shop and serialize your license. 
 Log in with your shop username and password.
 If you do not have a username and password, follow the link https://shop.snap.net and create one.
-![]shop.png
+![](./img/shop.png)
 
 
 After succesful log on you will be prompted with your "Snapt UI" login page.
