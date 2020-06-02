@@ -1,17 +1,17 @@
-i# Google Cloud Launcher
+# Google Cloud Launcher
 
 ## Deploying
 First off we're going to deploy an ADC node .  That's really easy with Cloud Launcher.  Simply go to https://console.cloud.google.com/launcher/details/snapt-public/snapt-aria-v2
 
-![](./img/landingpage.png)
+![](./img/landing.png)
 
 Click "Launch on Compute Engine"
 
-![](./img/deploypage.png)
+![](./img/deploy.png)
 
 You can take the default settings or customize them.  When complete click "Deploy"
 
-![](./img/deployedpage.png)
+![](./img/deploying.png)
 
 That's it!  Your cluster is now deploying.
 
@@ -19,21 +19,40 @@ That's it!  Your cluster is now deploying.
 
 When complete you should see:
 
-![](./img/deployedpage.png)
+![](./img/deployed.png)
 
-To launch Snapt Aria User interface click on the web address: 
+To launch Snapt Aria User interface click on the site address: 
+![](./img/site-address.png)
+
+If you receive a redirect prompt, follow direct link. 
+![](./redirect.png)
+
+You should now receive a Snapt shop login page.
+![](./browse.png)
+(Please note it may take a while for interface to initialize. If you receive a page not found, please wait a few minutes before trying again.)
+
+## Snapt Web Interface
+If this is your first time deploying Aria, you will need to log onto shop and serialize your license. 
+Log in with your shop username and password.
+If you do not have a username and password, follow the link https://shop.snap.net and create one.
+![]shop.png
 
 
-If you need to configure the admin interface, ssh into Aria and check/configure the IP address using the "getipaddress" and "networkconfig" respectively.
-
-![](./img/ssh1.png)
-
-we can open a web browser to https://<vm-address>:8080 to view .  Before that, grab the OpsCenter "admin" user's password to log into your OpsCenter instance.
+After succesful log on you will be prompted with your "Snapt UI" login page.
+![]login.pnp
 
 
-Great!  You now have a Aria running with 1 node.
+Great! You have 1 Aria node running on GCP.
+
+## Creating a trial account 
+If you do not have a license, you may register a new account by clicking "Create an account". You will be prompted for you email address and will need to check your inbox for further instructions.
+![]trial.png
+
+Return to shop account and login with your new username and password.
+
 
 ## Next Steps
 
-If you want to learn more about DataStax Enterprise, our doc site https://docs.snapt.net/ is a great place to start.
+If you want to learn more about Snapt Aria, please visit our doc site https://docs.snapt.net/.
+
 
